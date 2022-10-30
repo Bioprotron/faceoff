@@ -1,0 +1,155 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
+
+.header {
+    background: url("head.jpg") no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+
+.header  .container {
+    position: relative;
+    top: 200px;
+}
+
+.header h1 {
+    color: #fff;
+    line-height: 100px;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 850px) {
+    .header h1 {
+        font-size: 120px;
+    }
+}
+
+.header p {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 1em 3em;
+ text-transform: uppercase;
+ letter-spacing: 2.5px;
+ font-weight: 300;
+ color: #000;
+ background-color: #fff;
+ border: none;
+ border-radius: 45px;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease 0s;
+ cursor: pointer;
+ outline: none;
+}
+
+.btn:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+   }
+   
+   .btn:active {
+    transform: translateY(-1px);
+   }
+
+    .nav ul li:hover {
+    background: #8E69E0;
+    cursor: pointer; 
+    transition: background .5s;  
+  }
+
+.nav {
+    background: #000;
+    height: 50px;
+    width: 100%;
+}
+
+.nav ul {
+    height: 50px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+}
+
+.nav ul li {
+    color: #fff;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    padding: 0 25px;
+    transition: background .5s;
+}
+
+.main .container {
+    margin: 80px auto;
+}
+
+.main img {
+    float: left;
+    margin: 0 80px 20px 0;
+}
+
+.jumbotron {
+    background: url("4.jpg") center center;
+    background-size: cover;
+    height: 1200px;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 220px;
+}
+
+.jumbotron h2 {
+    color: #fff;
+    text-align: right;
+}
+
+.jumbotron p {
+    color: #fff;
+    text-align: right;
+    font-size: 20px;
+}
+
+.jumbotron .btn {
+    margin: 10px 0 0;
+    float: right;
+}
+
+.footer {
+    background: #000;
+    height: 65px;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 13px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;    
+}
+
+
+    
